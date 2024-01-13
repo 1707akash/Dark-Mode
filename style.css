@@ -1,0 +1,75 @@
+
+#dayBody{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    background-image: url(./morning.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#nightBody{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    background-image: url(./night.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#toggleDiv{
+    height: 70px;
+    width: 140px;
+    background-image: url(./sun-moon.webp);
+    background-position: center;
+    background-size: cover;
+    border-radius: 70px;
+    margin-top: 10rem;
+}
+
+
+#circleDay{
+    height: 60px;
+    width: 60px;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 5px;
+    margin-top: 5px;
+
+}
+
+#dayHeading{
+    font-size: 5rem;
+    color: rgb(47, 255, 0);
+}
+
+#nightHeading{
+    font-size: 5rem;
+    color: white;
+}
+
+#circleNight{
+    height: 60px;
+    width: 60px;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 5px;
+    margin-top: 5px;
+    align-self:start;
+
+}
+
