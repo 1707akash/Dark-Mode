@@ -13,6 +13,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    transition-duration: 0.2s;
 }
 #nightBody{
     box-sizing: border-box;
@@ -29,6 +30,7 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
+    transition-duration: 0.2s;
 }
 
 #toggleDiv{
@@ -49,17 +51,20 @@
     border-radius: 50%;
     margin-left: 5px;
     margin-top: 5px;
+    transition-duration: 0.2s;
 
 }
 
 #dayHeading{
     font-size: 5rem;
     color: rgb(47, 255, 0);
+    transition-duration: 0.2s;
 }
 
 #nightHeading{
     font-size: 5rem;
     color: white;
+    transition-duration: 0.2s;
 }
 
 #circleNight{
@@ -69,7 +74,8 @@
     border-radius: 50%;
     margin-left: 5px;
     margin-top: 5px;
-    align-self:start;
+    transform: translateX(calc(100% + 10px));
+    transition-duration: 0.2s;
 
 }
 
